@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "27c9032d-e93c-41d9-8002-0fd6e9c33adb")
+	(paper "A4")
+	(title_block
+		(title "VOICESWITCH")
+	)
+	(lib_symbols)
+	(sheet
+		(at 166.116 75.184)
+		(size 53.34 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82ec13b6-a7e5-43d6-a968-08969e3656e9")
+		(property "Sheetname" "POWER+RELAY"
+			(at 166.116 74.4724 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 166.116 117.6786 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-channel_relay"
+				(path "/27c9032d-e93c-41d9-8002-0fd6e9c33adb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 94.742 74.93)
+		(size 55.88 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7575e1f-0303-4a0f-b6f7-d1e6db88d23c")
+		(property "Sheetname" "ESP"
+			(at 94.742 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP.kicad_sch"
+			(at 94.742 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8-channel_relay"
+				(path "/27c9032d-e93c-41d9-8002-0fd6e9c33adb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
